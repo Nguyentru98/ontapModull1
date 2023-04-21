@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2></h2>
+    <script>
+        // in ra các phần tử trong mảng , phần tử chẵn trong h2 , lẻ trong h2
+        let a=[1,2,3,4,5,6];
+        for(i=0; i<a.length; i++)
+        if(a[i]%2===0){
+            document.write(`<h2>${a[i]}</h2>`)
+        }else{
+            document.write(`<h1>${a[i]}</h1>`)
+
+        }
+    </script>
+</body>
+</html>
